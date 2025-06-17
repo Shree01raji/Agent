@@ -1,0 +1,26 @@
+
+---
+
+## ✅ 2. Add a `.gitignore` (if you haven’t)
+
+In your project folder, create a file named `.gitignore` and paste this:
+
+```gitignore
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# IntelliJ
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
